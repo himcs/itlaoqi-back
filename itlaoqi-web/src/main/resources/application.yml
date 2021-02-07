@@ -1,0 +1,29 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: itlaoqi
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://himcs.io:3306/itlaoqi?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    password: 'root'
+    username: 'root'
+  redis:
+    host: himcs.io
+    port: 6379
+  rabbitmq:
+    host: himcs.io
+    username: mcs
+    password: mcs
+    listener:
+      simple:
+        # 手动ack
+        acknowledge-mode: manual
+        # 定义消费者同时处理的最大消息
+        prefetch: 10
+    virtual-host: /itlaoqi
+
+mybatis:
+  mapper-locations: classpath:mapper/*xml
+  type-aliases-package: io.himcs.babytun.mybatis.entity
