@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 /**
- * @author mcs [lik0x01@sp.noahgroup.com]
+ * @author mcs [787632628@qq.com]
  */
 @SpringBootTest
 class CatalogueRepositoryTest {

@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author mcs [lik0x01@sp.noahgroup.com]
+ * @author mcs [787632628@qq.com]
  */
 @Configuration
 public class RabbitMQConfiguration {

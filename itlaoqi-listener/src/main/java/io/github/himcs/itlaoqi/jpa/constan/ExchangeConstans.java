@@ -1,7 +1,7 @@
 package io.github.himcs.itlaoqi.jpa.constan;
 
 /**
- * @author mcs [lik0x01@sp.noahgroup.com]
+ * @author mcs [787632628@qq.com]
  */
 public class ExchangeConstans {
 

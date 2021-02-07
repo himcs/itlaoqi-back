@@ -15,7 +15,7 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 /**
- * @author mcs [lik0x01@sp.noahgroup.com]
+ * @author mcs [787632628@qq.com]
  */
 @Component
 @Slf4j

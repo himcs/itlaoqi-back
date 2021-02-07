@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 /**
- * @author mcs [lik0x01@sp.noahgroup.com]
+ * @author mcs [787632628@qq.com]
  */
 @Component
 @Slf4j
