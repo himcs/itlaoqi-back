@@ -6,3 +6,8 @@
 - itlaoqi-web 对外暴露
 
 项目基于JDK1.8搭建,编码为UTF-8
+
+## 环境依赖
+
+- RabbitMQ
+- MySQL
